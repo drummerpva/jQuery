@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Curso Completo JQuery</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .placar{
+                width: 150px;
+                height: 100px;
+                position: fixed;
+                left:0;
+                top:0;
+                background-color: #DDD;
+                text-align: center;
+            }
+            #placar{
+                font-size:50px;
+            }
+            .bola{
+                width: 50px;
+                height: 50px;
+                border-radius: 25px;
+                position:absolute;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="placar">
+            Bolas Estouradas:<br/>
+            <span id="placar">0</span><br/>
+            <button id="comecar">Começar o Jogo</button>
+        </div>
+        
+
+        <script src="jquery.js" type="text/javascript"></script>
+        <script src="script.js" type="text/javascript"></script>
+    </body>
+</html>

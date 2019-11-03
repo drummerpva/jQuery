@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Curso Completo JQuery</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .fundoVermelho{
+                background-color: #F00;
+            }
+            .campoTexto{
+                width: 300px;
+                height: 35px;
+                font-size: 20px;
+                border: 1px solid #000;
+                background-color: #999;
+            }
+            .botao{
+                width: 150px;
+                height: 35px;
+                line-height: 35px;
+                background-color: #999;
+                text-align: center;
+                cursor:pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Titulo da Página</h1>
+        Nome:<br/>
+        <input type="text" />
+        <button>Clique Aqui</button>
+        <div class="site">
+            <div class="topo">
+                <div class="subtopo">
+                    <span class="filha"></span>
+                </div>
+            </div>
+            <div class="conteudo"></div>
+            <div class="rodape"></div>
+        </div>
+        
+        <hr/>
+        <form method="POST">
+            Nome:<br/>
+            <input type="text" name="nome" id="nome" required/><br/><br/>
+            <input type="submit" value="Enviar" id="botaoForm"/>
+        </form>
+        <hr/>
+        <form method="POST" id="form">
+            <h4>Eventos de formulário</h4>
+            Nome:<br/>
+            <input type="text" name="nome" id="nomeF"/><br/><br/>
+            E-mail:<br/>
+            <input type="email" name="email" id="email" /><br/><br/>
+            Idade:<br/>
+            <select name="idade" id="idade">
+                <option>10 anos</option>
+                <option>20 anos</option>
+                <option>30 anos</option>
+            </select><br/><br/>
+            <input type="submit" value="Enviar"/>
+        </form>
+        <hr/>
+        <div id="texto" style="width: 200px;height: 100px;overflow-y: scroll">
+           O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada. Foi popularizada nos anos 60 com a disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum. 
+        </div>
+        <hr/>
+        <div id="divBotao" class="botao">Botão</div>
+
+
+        <script src="jquery.js" type="text/javascript"></script>
+        <script src="script.js" type="text/javascript"></script>
+    </body>
+</html>

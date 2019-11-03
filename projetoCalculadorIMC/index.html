@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Curso Completo JQuery</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .fundoVermelho{
+                background-color: #F00;
+            }
+            .campoTexto{
+                width: 300px;
+                height: 35px;
+                font-size: 20px;
+                border: 1px solid #000;
+                background-color: #999;
+            }
+            .botao{
+                width: 150px;
+                height: 35px;
+                line-height: 35px;
+                background-color: #999;
+                text-align: center;
+                cursor:pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Calculadora IMC</h1>
+        <form>
+            Altura:<br/>
+            <input type="tel" name="altura" id="altura" required placeholder="Em Metros(ex: 1,70)"/><br/><br/>
+            Peso:<br/>
+            <input type="tel" name="peso" id="peso" required placeholder="Em Kilos"/><br/><br/>
+            <input type="submit" value="Calcular"/>
+        </form>
+        <div id="resultado"></div>
+
+
+        <script src="jquery.js" type="text/javascript"></script>
+        <script src="script.js" type="text/javascript"></script>
+    </body>
+</html>
